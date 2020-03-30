@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 4060_ROGLAB-rescue)(type Legacy)(uri ${KIPRJMOD}/4060_ROGLAB-rescue.lib)(options "")(descr ""))
+  (lib (name Fingertips-rescue)(type Legacy)(uri ${KIPRJMOD}/Fingertips-rescue.lib)(options "")(descr ""))
+)

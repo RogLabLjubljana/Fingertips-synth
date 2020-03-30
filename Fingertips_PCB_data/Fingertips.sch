@@ -1,0 +1,571 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 8268 5827
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Fingertips-rescue:+9V-4060_ROGLAB-rescue #PWR01
+U 1 1 5BE6BE59
+P 4250 1980
+F 0 "#PWR01" H 4250 1830 50  0001 C CNN
+F 1 "+9V" H 4250 2120 50  0000 C CNN
+F 2 "" H 4250 1980 50  0001 C CNN
+F 3 "" H 4250 1980 50  0001 C CNN
+	1    4250 1980
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:+9V-4060_ROGLAB-rescue #PWR02
+U 1 1 5BE6BE7B
+P 6550 900
+F 0 "#PWR02" H 6550 750 50  0001 C CNN
+F 1 "+9V" H 6550 1040 50  0000 C CNN
+F 2 "" H 6550 900 50  0001 C CNN
+F 3 "" H 6550 900 50  0001 C CNN
+	1    6550 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:GND-4060_ROGLAB-rescue #PWR03
+U 1 1 5BE6BE91
+P 6550 1000
+F 0 "#PWR03" H 6550 750 50  0001 C CNN
+F 1 "GND" H 6550 850 50  0000 C CNN
+F 2 "" H 6550 1000 50  0001 C CNN
+F 3 "" H 6550 1000 50  0001 C CNN
+	1    6550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:GND-4060_ROGLAB-rescue #PWR04
+U 1 1 5BE6BEB6
+P 3300 2830
+F 0 "#PWR04" H 3300 2580 50  0001 C CNN
+F 1 "GND" H 3300 2680 50  0000 C CNN
+F 2 "" H 3300 2830 50  0001 C CNN
+F 3 "" H 3300 2830 50  0001 C CNN
+	1    3300 2830
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x02_Female-4060_ROGLAB-rescue J2
+U 1 1 5BE6BEE2
+P 7500 900
+F 0 "J2" H 7500 1000 50  0000 C CNN
+F 1 "POWER-IN" H 7500 700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7500 900 50  0001 C CNN
+F 3 "" H 7500 900 50  0001 C CNN
+	1    7500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R3
+U 1 1 5BE6BF42
+P 4350 2480
+F 0 "R3" V 4300 2480 39  0000 L CNN
+F 1 "100K" V 4350 2430 30  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4350 2480 50  0001 C CNN
+F 3 "" H 4350 2480 50  0001 C CNN
+	1    4350 2480
+	0    1    1    0   
+$EndComp
+$Comp
+L Fingertips-rescue:GND-4060_ROGLAB-rescue #PWR05
+U 1 1 5BE6BFAE
+P 4500 2480
+F 0 "#PWR05" H 4500 2230 50  0001 C CNN
+F 1 "GND" H 4500 2330 50  0000 C CNN
+F 2 "" H 4500 2480 50  0001 C CNN
+F 3 "" H 4500 2480 50  0001 C CNN
+	1    4500 2480
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R4
+U 1 1 5BE6C057
+P 4350 2580
+F 0 "R4" V 4300 2580 50  0000 L CNN
+F 1 "1K" V 4350 2530 30  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4350 2580 50  0001 C CNN
+F 3 "" H 4350 2580 50  0001 C CNN
+	1    4350 2580
+	0    1    1    0   
+$EndComp
+$Comp
+L Fingertips-rescue:C_Small-4060_ROGLAB-rescue C2
+U 1 1 5BE6C177
+P 4350 2780
+F 0 "C2" H 4360 2850 50  0000 L CNN
+F 1 "471" H 4360 2700 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4350 2780 50  0001 C CNN
+F 3 "" H 4350 2780 50  0001 C CNN
+	1    4350 2780
+	0    1    1    0   
+$EndComp
+$Comp
+L Fingertips-rescue:2N3904-4060_ROGLAB-rescue Q2
+U 1 1 5BE6C1B6
+P 5650 2630
+F 0 "Q2" H 5570 2850 50  0000 L CNN
+F 1 "2N3904" H 5380 2770 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5850 2555 50  0001 L CIN
+F 3 "" H 5650 2630 50  0001 L CNN
+	1    5650 2630
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R6
+U 1 1 5BE6C227
+P 5400 2830
+F 0 "R6" V 5480 2790 50  0000 L CNN
+F 1 "10K" V 5400 2780 30  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5400 2830 50  0001 C CNN
+F 3 "" H 5400 2830 50  0001 C CNN
+	1    5400 2830
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 1980 4250 2080
+Wire Wire Line
+	4250 2080 4200 2080
+Wire Wire Line
+	3300 2830 3300 2780
+Wire Wire Line
+	3300 2780 3350 2780
+Wire Wire Line
+	6550 900  6700 900 
+Wire Wire Line
+	6650 1000 6550 1000
+Wire Wire Line
+	4250 2480 4200 2480
+Wire Wire Line
+	4500 2480 4450 2480
+Wire Wire Line
+	4250 2580 4200 2580
+Wire Wire Line
+	4250 2780 4200 2780
+Wire Wire Line
+	4450 2580 4500 2580
+Wire Wire Line
+	4500 2580 4500 2780
+Wire Wire Line
+	4500 2780 4450 2780
+Wire Wire Line
+	4500 2880 4950 2880
+Connection ~ 4500 2780
+$Comp
+L Fingertips-rescue:POT-4060_ROGLAB-rescue RV1
+U 1 1 5BE6C48C
+P 5250 2630
+F 0 "RV1" V 5120 2610 50  0000 C CNN
+F 1 "1M" V 5250 2630 30  0000 C CNN
+F 2 "Pott:Potentiometer_TheOne_5pin_fix" H 5250 2630 50  0001 C CNN
+F 3 "" H 5250 2630 50  0001 C CNN
+	1    5250 2630
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2830 5550 2830
+Wire Wire Line
+	5300 2880 5300 2830
+Wire Wire Line
+	5250 2480 5250 2430
+Wire Wire Line
+	5250 2430 5550 2430
+Wire Wire Line
+	5250 2480 4950 2480
+Wire Wire Line
+	4850 2480 4850 2680
+Wire Wire Line
+	4850 2680 4200 2680
+NoConn ~ 5250 2780
+Wire Wire Line
+	5100 2630 5050 2630
+Wire Wire Line
+	5050 2630 5050 2880
+Connection ~ 5050 2880
+Wire Wire Line
+	5900 2630 5850 2630
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R5
+U 1 1 5BE6DAA2
+P 4950 2680
+F 0 "R5" H 4970 2780 50  0000 L CNN
+F 1 "1M" V 4950 2630 30  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 4950 2680 50  0001 C CNN
+F 3 "" H 4950 2680 50  0001 C CNN
+	1    4950 2680
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2580 4950 2480
+Connection ~ 4950 2480
+Wire Wire Line
+	4950 2780 4950 2880
+Connection ~ 4950 2880
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J10
+U 1 1 5BE6DD19
+P 4450 2180
+F 0 "J10" H 4450 2180 50  0000 C CNN
+F 1 "Q10" H 4550 2180 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 4450 2180 50  0001 C CNN
+F 3 "" H 4450 2180 50  0001 C CNN
+	1    4450 2180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2180 4200 2180
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J11
+U 1 1 5BE6DF14
+P 4450 2280
+F 0 "J11" H 4450 2280 50  0000 C CNN
+F 1 "Q8" H 4550 2280 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 4450 2280 50  0001 C CNN
+F 3 "" H 4450 2280 50  0001 C CNN
+	1    4450 2280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J12
+U 1 1 5BE6DF6C
+P 4450 2380
+F 0 "J12" H 4450 2380 50  0000 C CNN
+F 1 "Q9" H 4550 2380 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 4450 2380 50  0001 C CNN
+F 3 "" H 4450 2380 50  0001 C CNN
+	1    4450 2380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J3
+U 1 1 5BE6E0FF
+P 3100 2080
+F 0 "J3" H 3150 2080 50  0000 C CNN
+F 1 "Q12" H 3250 2080 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2080 50  0001 C CNN
+F 3 "" H 3100 2080 50  0001 C CNN
+	1    3100 2080
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J4
+U 1 1 5BE6E21F
+P 3100 2180
+F 0 "J4" H 3150 2180 50  0000 C CNN
+F 1 "Q13" H 3250 2180 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2180 50  0001 C CNN
+F 3 "" H 3100 2180 50  0001 C CNN
+	1    3100 2180
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J5
+U 1 1 5BE6E284
+P 3100 2280
+F 0 "J5" H 3150 2280 50  0000 C CNN
+F 1 "Q14" H 3250 2280 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2280 50  0001 C CNN
+F 3 "" H 3100 2280 50  0001 C CNN
+	1    3100 2280
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J6
+U 1 1 5BE6E2E8
+P 3100 2380
+F 0 "J6" H 3150 2380 50  0000 C CNN
+F 1 "Q6" H 3250 2380 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2380 50  0001 C CNN
+F 3 "" H 3100 2380 50  0001 C CNN
+	1    3100 2380
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J8
+U 1 1 5BE6E3B9
+P 3100 2580
+F 0 "J8" H 3150 2580 50  0000 C CNN
+F 1 "Q7" H 3250 2580 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2580 50  0001 C CNN
+F 3 "" H 3100 2580 50  0001 C CNN
+	1    3100 2580
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J9
+U 1 1 5BE6E426
+P 3100 2680
+F 0 "J9" H 3150 2680 50  0000 C CNN
+F 1 "Q4" H 3250 2680 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2680 50  0001 C CNN
+F 3 "" H 3100 2680 50  0001 C CNN
+	1    3100 2680
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2280 4250 2280
+Wire Wire Line
+	4200 2380 4250 2380
+Wire Wire Line
+	3300 2680 3350 2680
+Wire Wire Line
+	3300 2580 3350 2580
+Wire Wire Line
+	3300 2480 3350 2480
+Wire Wire Line
+	3300 2380 3350 2380
+Wire Wire Line
+	3300 2280 3350 2280
+Wire Wire Line
+	3300 2180 3350 2180
+Wire Wire Line
+	3300 2080 3350 2080
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J7
+U 1 1 5BE6F66B
+P 3100 2480
+F 0 "J7" H 3150 2480 50  0000 C CNN
+F 1 "Q5" H 3250 2480 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-5mmDrill" H 3100 2480 50  0001 C CNN
+F 3 "" H 3100 2480 50  0001 C CNN
+	1    3100 2480
+	-1   0    0    1   
+$EndComp
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R2
+U 1 1 5BE71650
+P 2900 2930
+F 0 "R2" H 2930 2950 50  0000 L CNN
+F 1 "1k" V 2900 2880 50  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2900 2930 50  0001 C CNN
+F 3 "" H 2900 2930 50  0001 C CNN
+	1    2900 2930
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2930 2750 2930
+Wire Wire Line
+	3300 2680 3300 2730
+Wire Wire Line
+	3300 2730 3000 2730
+Wire Wire Line
+	3000 2730 3000 2930
+$Comp
+L Fingertips-rescue:R_Small-4060_ROGLAB-rescue R1
+U 1 1 5BE71871
+P 2450 2580
+F 0 "R1" H 2480 2600 50  0000 L CNN
+F 1 "1K" V 2450 2530 39  0000 L CNN
+F 2 "Custom_THT_resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2450 2580 50  0001 C CNN
+F 3 "" H 2450 2580 50  0001 C CNN
+	1    2450 2580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2680 2450 2730
+$Comp
+L Fingertips-rescue:GND-4060_ROGLAB-rescue #PWR06
+U 1 1 5BE71B1C
+P 2450 3180
+F 0 "#PWR06" H 2450 2930 50  0001 C CNN
+F 1 "GND" H 2450 3030 50  0000 C CNN
+F 2 "" H 2450 3180 50  0001 C CNN
+F 3 "" H 2450 3180 50  0001 C CNN
+	1    2450 3180
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3180 2450 3130
+$Comp
+L Fingertips-rescue:CP1_Small-4060_ROGLAB-rescue C1
+U 1 1 5BE71BED
+P 2300 2730
+F 0 "C1" V 2130 2670 50  0000 L CNN
+F 1 "10uF" V 2200 2680 39  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 2300 2730 50  0001 C CNN
+F 3 "" H 2300 2730 50  0001 C CNN
+	1    2300 2730
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 2730 2400 2730
+$Comp
+L Fingertips-rescue:+9V-4060_ROGLAB-rescue #PWR07
+U 1 1 5BE71D25
+P 2450 2430
+F 0 "#PWR07" H 2450 2280 50  0001 C CNN
+F 1 "+9V" H 2450 2570 50  0000 C CNN
+F 2 "" H 2450 2430 50  0001 C CNN
+F 3 "" H 2450 2430 50  0001 C CNN
+	1    2450 2430
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2430 2450 2480
+$Comp
+L Fingertips-rescue:Conn_01x02_Female-4060_ROGLAB-rescue J1
+U 1 1 5BE71EAE
+P 1950 2830
+F 0 "J1" H 1880 2910 50  0000 C CNN
+F 1 "SPEAKER" H 2140 2790 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1950 2830 50  0001 C CNN
+F 3 "" H 1950 2830 50  0001 C CNN
+	1    1950 2830
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 2730 2200 2730
+$Comp
+L Fingertips-rescue:GND-4060_ROGLAB-rescue #PWR08
+U 1 1 5BE71FA5
+P 2150 2880
+F 0 "#PWR08" H 2150 2630 50  0001 C CNN
+F 1 "GND" H 2150 2730 50  0000 C CNN
+F 2 "" H 2150 2880 50  0001 C CNN
+F 3 "" H 2150 2880 50  0001 C CNN
+	1    2150 2880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2880 2150 2830
+$Comp
+L Fingertips-rescue:BC337-4060_ROGLAB-rescue Q1
+U 1 1 5BE7268B
+P 2550 2930
+F 0 "Q1" H 2460 3130 50  0000 L CNN
+F 1 "BC337" H 2310 3050 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2750 2855 50  0001 L CIN
+F 3 "" H 2550 2930 50  0001 L CNN
+	1    2550 2930
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:SW_SPDT-4060_ROGLAB-rescue SW1
+U 1 1 5BE7303F
+P 6950 900
+F 0 "SW1" H 7040 880 50  0000 C CNN
+F 1 "SW_SPDT" H 7090 1060 50  0000 C CNN
+F 2 "SW_SPDT_custom:SW_SPDT_custom" H 6950 900 50  0001 C CNN
+F 3 "" H 6950 900 50  0001 C CNN
+	1    6950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 900  7300 800 
+Wire Wire Line
+	7300 800  7150 800 
+Wire Wire Line
+	6650 1000 6650 1100
+Wire Wire Line
+	6650 1100 6700 1100
+Wire Wire Line
+	7300 1100 7300 1000
+NoConn ~ 7150 1000
+$Comp
+L Fingertips-rescue:PWR_FLAG-4060_ROGLAB-rescue #FLG09
+U 1 1 5BE6EF2B
+P 6700 850
+F 0 "#FLG09" H 6700 925 50  0001 C CNN
+F 1 "PWR_FLAG" H 6690 1030 50  0000 C CNN
+F 2 "" H 6700 850 50  0001 C CNN
+F 3 "" H 6700 850 50  0001 C CNN
+	1    6700 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 850  6700 900 
+Connection ~ 6700 900 
+$Comp
+L Fingertips-rescue:PWR_FLAG-4060_ROGLAB-rescue #FLG010
+U 1 1 5BE6F2A3
+P 6700 1150
+F 0 "#FLG010" H 6700 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6700 1300 50  0000 C CNN
+F 2 "" H 6700 1150 50  0001 C CNN
+F 3 "" H 6700 1150 50  0001 C CNN
+	1    6700 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 1150 6700 1100
+Connection ~ 6700 1100
+$Comp
+L Fingertips-rescue:Conn_01x01_Female-4060_ROGLAB-rescue J13
+U 1 1 5BE6D5ED
+P 6100 2630
+F 0 "J13" H 6100 2730 50  0000 C CNN
+F 1 "1st_r2r" H 5950 2580 30  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_1-2mmDrill" H 6100 2630 50  0001 C CNN
+F 3 "" H 6100 2630 50  0001 C CNN
+	1    6100 2630
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fingertips-rescue:4060-4060_ROGLAB-rescue U1
+U 1 1 5BE6BDC3
+P 3700 2280
+F 0 "U1" H 3700 1630 60  0000 C CNN
+F 1 "4060" H 3700 2650 60  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W10.16mm_LongPads" H 3700 2280 60  0001 C CNN
+F 3 "" H 3700 2280 60  0001 C CNN
+	1    3700 2280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2780 4500 2880
+Wire Wire Line
+	5050 2880 5300 2880
+Wire Wire Line
+	4950 2480 4850 2480
+Wire Wire Line
+	4950 2880 5050 2880
+Wire Wire Line
+	6700 900  6750 900 
+Wire Wire Line
+	6700 1100 7300 1100
+Text Notes 6150 2655 0    50   ~ 0
+Touch pad / pitch input
+Text Notes 2850 1955 0    50   ~ 0
+Q4-14 are output\n touch pads.
+Text Notes 7310 1210 0    39   ~ 0
+(9V battery)
+Text Notes 1890 2710 0    39   ~ 0
++
+Text Notes 1890 2900 0    39   ~ 0
+-
+Text Notes 3920 5060 0    59   ~ 0
+Prstne blazinice / Fingertips (touch synth)
+Text Notes 7130 5200 0    59   ~ 0
+1
+Text Notes 4710 5200 0    59   ~ 0
+22 June 2019
+Text Notes 530  4390 0    39   ~ 0
+*1 CD4060B or similar 4060 IC with max. operating voltage higher than 9 V.
+Text Notes 3850 1950 0    59   ~ 12
+*1
+Text Notes 530  4250 0    79   ~ 0
+Notes:
+Wire Notes Line
+	3530 4100 490  4100
+Wire Notes Line
+	490  4100 490  5340
+Wire Notes Line
+	490  5340 3530 5340
+Wire Notes Line
+	3530 5340 3530 4100
+Connection ~ 2450 2730
+Connection ~ 3300 2680
+Connection ~ 5250 2480
+$EndSCHEMATC
